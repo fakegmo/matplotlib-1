@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+data = np.random.randn(1000)  # Sample data for the histogram
+plt.hist(data, bins=10)  # Plot the histogram with 10 bins
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.title('Histogram')
+plt.show()
